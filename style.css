@@ -221,6 +221,10 @@ section.alt .research-card{background:#f6f7f1;}
 }
 .contact-list a:hover{color:var(--teal);}
 .contact-list .dot{width:6px;height:6px;border-radius:50%;background:var(--ochre);flex:none;}
+.contact-grid{display:grid;grid-template-columns:1.1fr 0.9fr;gap:60px;align-items:start;}
+.office-card{background:var(--ink);color:var(--paper);border-radius:6px;padding:30px;}
+.office-card .eyebrow{color:var(--teal-bright);}
+.office-card p{color:rgba(238,241,234,0.78);font-size:0.92rem;margin-top:14px;line-height:1.7;}
 
 footer{
   padding:36px 0;border-top:1px solid var(--line);
@@ -235,6 +239,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
   .research-grid{grid-template-columns:1fr;}
   .about-grid{grid-template-columns:1fr;}
   .cv-columns{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
   .pub-item{grid-template-columns:60px 1fr;}
   .pub-links{grid-column:2;}
   .nav-links{
